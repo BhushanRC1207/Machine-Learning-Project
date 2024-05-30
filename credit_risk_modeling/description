@@ -1,1 +1,100 @@
 
+### Problem Statement
+"We have customer data and are trying to predict whether or not to give a loan."
+
+====================================================================================================================================
+
+##### Domain Knowledge
+
+# Bank Assets :
+- House Loan
+- Personal Loan
+- Education Loan
+- Vehicle Loan
+- Credit Card
+
+
+# Bank Liability : 
+- Current Account
+- Saving Account
+- Fixed Deposit
+- Recurring Deposit
+
+
+
+### Key Terms :
+
+# NPA :
+A Non-Performing Asset (NPA) refers to a loan or advance for which the principal or interest payment remains overdue for a period of 90 days.
+
+# Disbursed Amount :
+Loan amount given to customer.
+
+# OSP : 
+The Outstanding Principal refers to the remaining amount of the original loan principal that has not yet been repaid by the borrower.
+
+# Amortization :
+Amortization refers to the process of spreading out a loan into a series of fixed payments over time. These payments cover both the principal amount and the interest. 
+
+# DPD :
+Days Past Due (DPD) refers to the number of days that have elapsed since a payment on a loan or credit account was due but not paid. DPD is calculated from the day after the payment due date until the date the payment is made.
+
+# PAR :
+PAR is the ratio of the outstanding balance of all loans that are overdue (past due) by a certain number of days to the total outstanding balance of the loan portfolio.
+
+
+### Types of Credit Risk in Banking :
+
+# DPD(0) :
+- Non Delinquient Account
+A non-delinquent account refers to a credit account or loan where the borrower has made all required payments on time and has not defaulted or fallen behind on payments. In other words, it is an account that is current and in good standing.
+
+# DPD(0-30) :
+- Standard Monitoring Account 1 
+an account with Days Past Due (DPD) between 0 to 30 days indicates that the borrower has made payments within 30 days of the due date, which is considered normal and does not raise immediate concerns about creditworthiness or default.
+
+# DPD(31-60) :
+- Standard Monitoring Account 2
+ This indicates that the borrower has not made payments for a period of 31 to 60 days past the due date. While this is a concerning sign, it is not yet considered severe delinquency.
+
+# DPD(61-90) :
+- Standard Monitoring Account 3
+A DPD (Days Past Due) of 61 to 90 days indicates a significant delay in making a payment on a loan or credit card. This can have negative consequences for your credit score.
+
+# DPD(90-180) :
+Non performing asset
+
+# DPD(>180) :
+writen off 
+this is a critical threshold as it often signifies a severe delinquency and may lead to the account being classified as a non-performing asset (NPA).
+
+
+
+## GNPA :
+Gross Non-Performing Assets (GNPA) is a financial term used in the banking sector to refer to the total amount of non-performing assets (NPAs) before any provisions or write-offs are made. It is a key indicator of the overall health of a bank's loan portfolio.
+
+## NNPA :
+Net Non-Performing Assets (NNPA) is a financial metric used in banking to measure the level of non-performing assets (NPAs) after accounting for provisions made for potential loan losses. NNPA provides a more accurate picture of the actual risk faced by a bank due to its NPAs.
+
+====================================================================================================================================
+
+### What are these test ?
+
+# chi-sq test : categories vs categories
+# t-test      : only 2 categories vs numerical
+# ANOVA test  : greater than 2 categories vs numerical
+
+
+====================================================================================================================================
+
+### confusion matrix :
+
+accuracy : out of total values how many are correctly predicted.
+
+recall : out of total values for a class how many are correctly predicted.
+
+precision : out of total predicted values for a class how many are correctly predicted.
+
+f1_score : The F1 score is a way to combine precision and recall into a single metric, providing a balance between the two measures. A high F1 score indicates both high precision and high recall, while a low F1 score indicates that either precision or recall or both are low.
+
+====================================================================================================================================
